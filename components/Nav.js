@@ -16,12 +16,23 @@ export default props => {
   }
   return (
     <nav sx={{ textAlign: "center", pb: 4 }}>
-      <a sx={{ color: "blue" }} href="/">
-        Write
+      <a
+        sx={{ color: "blue" }}
+        href="./"
+        onClick={e => {
+          e.preventDefault()
+          window && window.location.reload()
+        }}
+      >
+        Random refresh
       </a>
-      <span sx={{ mx: 4 }}>|</span>
+      <span sx={{ mx: 3 }}>|</span>
+      <a sx={{ color: "blue" }} href="/">
+        Make your own
+      </a>
+      <span sx={{ mx: 3 }}>|</span>
       <a sx={{ color: "blue" }} href={mailto}>
-        Send
+        Send Email
       </a>
     </nav>
   )

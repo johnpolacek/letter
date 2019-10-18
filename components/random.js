@@ -67,7 +67,7 @@ const friends = [
 
 // I am confidentially enclosing
 const objects = [
-  "Melania’s don’t care jacket",
+  "Melania’s I Don’t Care Jacket",
   "a Trump University Diploma",
   "some worthless congressional subpoena",
   "quid pro quo",
@@ -144,6 +144,13 @@ const later = [
   "text you from my unsecure phone later",
   "see you at Mar-a-Lago",
   "block your testimony",
+  "rage tweet you later",
+  "thumbs up pose with you in a pic later",
+  "come up with an insulting nickname for you later",
+  "ask Hannity what to do about you",
+  "mention this to Putin",
+  "get back to not reading national security briefings, or really not reading anything ever",
+  "go insult some minorities now",
 ]
 
 const getRandom = array => {

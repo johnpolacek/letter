@@ -137,8 +137,8 @@ export default props => (
       >
         {props.friend || "<random person>"}
       </span>{" "}
-      is willing to negotiate with you, and he is willing to make concessions
-      that they would never have made in the past. I am confidentially enclosing
+      is willing to negotiate with you, and make concessions never made in the
+      past. I am confidentially enclosing{" "}
       <span
         sx={{
           m: 0,

@@ -101,25 +101,25 @@ export default props => (
       <span
         sx={{
           m: 0,
-          borderBottom: props.consequence ? "none" : "1px solid",
-          bg: props.consequence ? "none" : "#fafafa",
-          color: props.consequence ? "black" : "gray",
+          borderBottom: props.action ? "none" : "1px solid",
+          bg: props.action ? "none" : "#fafafa",
+          color: props.action ? "black" : "gray",
           borderColor: "#eee",
         }}
       >
-        {props.consequence || "<random action>"}
+        {props.action || "<random action>"}
       </span>{" "}
       — and I will. I've already given you a little sample with respect to{" "}
       <span
         sx={{
           m: 0,
-          borderBottom: props.consequence ? "none" : "1px solid",
-          bg: props.consequence ? "none" : "#fafafa",
-          color: props.consequence ? "black" : "gray",
+          borderBottom: props.thing ? "none" : "1px solid",
+          bg: props.thing ? "none" : "#fafafa",
+          color: props.thing ? "black" : "gray",
           borderColor: "#eee",
         }}
       >
-        {props.randomPerson || "<random person>"}
+        {props.thing || "<random thing>"}
       </span>
       .
     </p>
@@ -129,26 +129,26 @@ export default props => (
       <span
         sx={{
           m: 0,
-          borderBottom: props.consequence ? "none" : "1px solid",
-          bg: props.consequence ? "none" : "#fafafa",
-          color: props.consequence ? "black" : "gray",
+          borderBottom: props.friend ? "none" : "1px solid",
+          bg: props.friend ? "none" : "#fafafa",
+          color: props.friend ? "black" : "gray",
           borderColor: "#eee",
         }}
       >
-        {props.proTrumper || "<random person>"}
+        {props.friend || "<random person>"}
       </span>{" "}
       is willing to negotiate with you, and he is willing to make concessions
       that they would never have made in the past. I am confidentially enclosing
       <span
         sx={{
           m: 0,
-          borderBottom: props.consequence ? "none" : "1px solid",
-          bg: props.consequence ? "none" : "#fafafa",
-          color: props.consequence ? "black" : "gray",
+          borderBottom: props.object ? "none" : "1px solid",
+          bg: props.object ? "none" : "#fafafa",
+          color: props.object ? "black" : "gray",
           borderColor: "#eee",
         }}
       >
-        {props.randomThing || "<random thing>"}
+        {props.object || "<random object>"}
       </span>
       , just received.
     </p>
@@ -158,9 +158,9 @@ export default props => (
       <span
         sx={{
           m: 0,
-          borderBottom: props.consequence ? "none" : "1px solid",
-          bg: props.consequence ? "none" : "#fafafa",
-          color: props.consequence ? "black" : "gray",
+          borderBottom: props.insult1 ? "none" : "1px solid",
+          bg: props.insult1 ? "none" : "#fafafa",
+          color: props.insult1 ? "black" : "gray",
           borderColor: "#eee",
         }}
       >
@@ -170,9 +170,9 @@ export default props => (
       <span
         sx={{
           m: 0,
-          borderBottom: props.consequence ? "none" : "1px solid",
-          bg: props.consequence ? "none" : "#fafafa",
-          color: props.consequence ? "black" : "gray",
+          borderBottom: props.insult2 ? "none" : "1px solid",
+          bg: props.insult2 ? "none" : "#fafafa",
+          color: props.insult2 ? "black" : "gray",
           borderColor: "#eee",
         }}
       >
@@ -182,9 +182,9 @@ export default props => (
       <span
         sx={{
           m: 0,
-          borderBottom: props.consequence ? "none" : "1px solid",
-          bg: props.consequence ? "none" : "#fafafa",
-          color: props.consequence ? "black" : "gray",
+          borderBottom: props.insult3 ? "none" : "1px solid",
+          bg: props.insult3 ? "none" : "#fafafa",
+          color: props.insult3 ? "black" : "gray",
           borderColor: "#eee",
         }}
       >
@@ -197,9 +197,9 @@ export default props => (
       <span
         sx={{
           m: 0,
-          borderBottom: props.consequence ? "none" : "1px solid",
-          bg: props.consequence ? "none" : "#fafafa",
-          color: props.consequence ? "black" : "gray",
+          borderBottom: props.later ? "none" : "1px solid",
+          bg: props.later ? "none" : "#fafafa",
+          color: props.later ? "black" : "gray",
           borderColor: "#eee",
         }}
       >

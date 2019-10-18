@@ -14,7 +14,7 @@ const To = () => {
   return (
     <>
       <Head title="Letter from a Stable Genius" />
-      <Nav to={to} dear="Mr. President">
+      <Nav to={to} dear="Mr. President" />
       <Letter to={to} dear="Mr. President" />
     </>
   )

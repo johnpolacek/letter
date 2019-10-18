@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "letter-from-a-stable-genius",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format-watch": "onchange \"**/*.{js,jsx,json,md}\" -- prettier --write {{changed}}"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.15",
+    "@mdx-js/loader": "^1.0.19",
+    "@next/mdx": "^9.0.3",
+    "next": "^9.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-social-sharing": "^3.0.1",
+    "theme-ui": "^0.2.43"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
